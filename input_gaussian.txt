@@ -1,0 +1,49 @@
+# SQD-style 2D single-excitation polariton interference; run: python run.py --input input.txt
+Model = polaritonmod
+Method = split_op_Saeed
+System = pc
+
+# Same vs different: SAME sets right J and epsilon to material 1; DIFFERENT
+# uses separately supplied J2 and eps2. Here eps2=eps1: spectral-only comparison.
+$cases = 'same,different'
+$phases = '0,pi'
+$Nx = 64
+$Ny = 24
+$a_bohr = 75.0
+$eps1_ev = 3.2
+$eps2_ev = 3.2
+$reference_eps_ev = 3.2
+$g_cm1 = 3900.0
+$tau_ref_cm1 = 0.0
+$Lz_bohr = 1889.726125
+
+# For fitted spectral data: CSV format is omega_cm1,J_in_Hartree
+$j_source_1 = 'csv'
+$j_source_2 = 'csv'
+$spectrum1 = 'spectra/material1_EXAMPLE.csv'
+$spectrum2 = 'spectra/material2_EXAMPLE.csv'
+$n_modes = 12
+$omega_min_cm1 = 70.0
+$omega_max_cm1 = 1800.0
+$temperature_K = 300.0
+
+# Prepare two distinct incoming arms but only ONE total quantum excitation
+$kx_mode = 2
+$offset_sites = 8.0
+$sigma_x_sites = 5.0
+$sigma_y_sites = 4.0
+$initial_bulk_mode = 'reference'
+$dE_ev = 0.0
+$ntry = 0
+$initial_method = 'gaussian'
+$initial_seed = 119
+
+# Electronic half-step is split into e_substeps_half equal steps of dtN/(2*nsub)
+$dtN = 8.0
+$e_substeps_half = 2
+$NSteps = 90
+$NTraj = 3
+$nskip = 3
+$SEED = 20261027
+$center_halfwidth_x = 4
+$center_halfwidth_y = 6

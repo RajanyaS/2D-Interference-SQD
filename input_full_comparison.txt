@@ -1,0 +1,15 @@
+# Alternate configuration: vary phonon spectral density and exciton energy SEPARATELY.
+# All other settings use defaults; replace demonstration CSV with your fitted spectra.
+Model = polaritonmod
+Method = split_op_Saeed
+$cases = 'same,spectral_only,energy_only,different'
+$phases = '0,pi/2,pi,3pi/2'
+$eps1_ev = 3.2
+$eps2_ev = 3.25
+$j_source_1 = 'csv'
+$j_source_2 = 'csv'
+$spectrum1 = 'spectra/material1_EXAMPLE.csv'
+$spectrum2 = 'spectra/material2_EXAMPLE.csv'
+$NTraj = 3
+$NSteps = 50
+$nskip = 2

@@ -1,0 +1,71 @@
+# Two-material 2D SQD MFE, fitted SIX-Brownian spectral density.
+# Run from project root: python run.py --input input_brownian.txt --output results_brownian
+Model = polaritonmod
+Method = split_op_Saeed
+System = pc
+$cases = 'same,different'
+$phases = '0,pi'
+$Nx = 64
+$Ny = 24
+$a_bohr = 75.0
+$eps1_ev = 3.2
+$eps2_ev = 3.2
+$reference_eps_ev = 3.2
+$g_cm1 = 3900.0
+$tau_ref_cm1 = 0.0
+$Lz_bohr = 1889.726125
+
+# Fitted Brownian form for BOTH baths; all Omegas and Gammas are Hartree.
+# All six material-1 fit parameters already included as model defaults.
+$j_source_1 = 'brownian'
+$j_source_2 = 'brownian'
+
+# Brownian amplitudes use the fitted values times (1e-11*pi**3).
+# No nsites normalization is applied.
+
+# Material 2 has no separately supplied fit yet.
+# This 1.4 multiplier is a DEMONSTRATION ONLY; not a second material's measured fit.
+# Change to 1.0 for identical spectral densities or replace the material-2
+# omega/gamma/amplitude arrays with measured fit values (see guide).
+$brownian_amplitude_multiplier_2 = 1.4
+
+# Frequency resolution: 64 oscillators PER SITE, more than original 12.
+# Narrowest Gamma is 0.00017 Ha (~37 cm^-1).
+$n_modes = 64
+$omega_min_cm1 = 30.0
+$omega_max_cm1 = 2100.0
+$brownian_bin_quadrature = 48
+$temperature_K = 300.0
+
+# Two coherent counterpropagating packets, ONE total excitation.
+$initial_method = 'sqd_mc'
+$initial_bulk_mode = 'reference'
+$kx_mode = 2
+$offset_sites = 8.0
+$sigma_x_sites = 5.0
+$sigma_y_sites = 4.0
+$dE_ev = 0.14
+$ntry = 2500
+$mc_step = 0.12
+$initial_seed = 119
+
+$dtN = 8.0
+$e_substeps_half = 2
+$NSteps = 90
+$NTraj = 3
+$nskip = 3
+$SEED = 20261027
+$center_halfwidth_x = 4
+$center_halfwidth_y = 6
+# Tiny validation run overrides
+$Nx = 24
+$Ny = 12
+$n_modes = 16
+$NSteps = 5
+$NTraj = 1
+$nskip = 2
+$ntry = 0
+$initial_method = 'gaussian'
+$dE_ev = 0.0
+$kx_mode = 1
+$offset_sites = 3.0

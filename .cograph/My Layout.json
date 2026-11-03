@@ -1,0 +1,450 @@
+{
+  "version": 2,
+  "name": "My Layout",
+  "description": "",
+  "savedAt": "2026-11-02T22:45:46.957Z",
+  "settings": {
+    "complexityLevel": 1,
+    "clusterGroupBy": "file",
+    "layoutMode": "static",
+    "layoutEngine": "shelf",
+    "gitMode": true,
+    "languageMode": true,
+    "folderMode": true,
+    "classMode": true,
+    "detailDepth": 1,
+    "repelRange": 850,
+    "sameFileEdgesOnly": true
+  },
+  "nodePositions": {
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_brownian_fits.py::params::9": {
+      "x": 56,
+      "y": 686
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_brownian_fits.py::test_exact_user_JL_formula::16": {
+      "x": 84,
+      "y": 686
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_brownian_fits.py::test_no_nsites_normalization::25": {
+      "x": 112,
+      "y": 686
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_brownian_fits.py::test_second_fit_multiplier::39": {
+      "x": 140,
+      "y": 686
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_brownian_fits.py::test_exact_mode_bin_area::49": {
+      "x": 56,
+      "y": 714
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_brownian_fits.py::test_thermal_mfe_run_with_brownian::59": {
+      "x": 84,
+      "y": 714
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_physics.py::setUpClass::11": {
+      "x": 56,
+      "y": 527
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_physics.py::test_one_excitation_two_packets::18": {
+      "x": 84,
+      "y": 527
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_physics.py::test_exact_block_diagonalization::27": {
+      "x": 112,
+      "y": 527
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_physics.py::test_unitarity_and_time_reversal_fixed_q::38": {
+      "x": 140,
+      "y": 527
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_physics.py::test_force::47": {
+      "x": 168,
+      "y": 527
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_physics.py::test_same_is_true_material_control::55": {
+      "x": 196,
+      "y": 527
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_physics.py::test_same_equals_different_if_all_parameters_matched::65": {
+      "x": 56,
+      "y": 555
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_physics.py::test_norm_over_mfe::76": {
+      "x": 84,
+      "y": 555
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_physics.py::test_wigner_variance_and_spectral_coupling::82": {
+      "x": 112,
+      "y": 555
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_physics.py::setUpClass::95": {
+      "x": 140,
+      "y": 555
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_physics.py::test_shell_only_and_preferred_directions::100": {
+      "x": 168,
+      "y": 555
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_physics.py::test_two_spatial_targets_and_unit_norm::112": {
+      "x": 196,
+      "y": 555
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_physics.py::test_old_gaussian_path_still_supported::124": {
+      "x": 56,
+      "y": 583
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_physics.py::test_sqd_requires_energy_window::131": {
+      "x": 84,
+      "y": 583
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_saeed_style.py::setUpClass::11": {
+      "x": 188,
+      "y": 686
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_saeed_style.py::test_original_shuffles_round_trip::19": {
+      "x": 216,
+      "y": 686
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_saeed_style.py::test_Epol_matches_BlocksED::26": {
+      "x": 244,
+      "y": 686
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_saeed_style.py::test_Uk_is_exact_analytic_block_exponential::34": {
+      "x": 272,
+      "y": 686
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_saeed_style.py::test_local_and_full_split_dont_double_count_reference::53": {
+      "x": 188,
+      "y": 714
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests/test_saeed_style.py::test_original_Force_interface_extended_for_multimode::60": {
+      "x": 216,
+      "y": 714
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/reference_original/split_op_Saeed_original.py::Epol::15": {
+      "x": 655,
+      "y": 527
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/reference_original/split_op_Saeed_original.py::Enoncouplefunc::43": {
+      "x": 683,
+      "y": 527
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/reference_original/split_op_Saeed_original.py::Ushuf::57": {
+      "x": 711,
+      "y": 527
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/reference_original/split_op_Saeed_original.py::Ushufrev::77": {
+      "x": 739,
+      "y": 527
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/reference_original/split_op_Saeed_original.py::BlocksED::96": {
+      "x": 767,
+      "y": 527
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/reference_original/split_op_Saeed_original.py::propagateCi::118": {
+      "x": 655,
+      "y": 555
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/reference_original/split_op_Saeed_original.py::Force::198": {
+      "x": 683,
+      "y": 555
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/reference_original/split_op_Saeed_original.py::VelVer::204": {
+      "x": 711,
+      "y": 555
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/reference_original/split_op_Saeed_original.py::pop::243": {
+      "x": 739,
+      "y": 555
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/reference_original/split_op_Saeed_original.py::runTraj::247": {
+      "x": 767,
+      "y": 555
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/reference_original/split_op_Saeed_original.py::__init__::9": {
+      "x": 655,
+      "y": 583
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/reference_original/split_op_Saeed_original.py::Hlayer::17": {
+      "x": 683,
+      "y": 583
+    },
+    "fileanchor::/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Model/__init__.py": {
+      "x": 424,
+      "y": 686
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Model/polaritonmod.py::_parse_value::12": {
+      "x": 404,
+      "y": 527
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Model/polaritonmod.py::load_input::24": {
+      "x": 432,
+      "y": 527
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Model/polaritonmod.py::initR::283": {
+      "x": 460,
+      "y": 527
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Model/polaritonmod.py::dHel0::296": {
+      "x": 488,
+      "y": 527
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Model/polaritonmod.py::__post_init__::139": {
+      "x": 516,
+      "y": 527
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Model/polaritonmod.py::brownian_spectrum::167": {
+      "x": 404,
+      "y": 555
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Model/polaritonmod.py::_discretize::208": {
+      "x": 432,
+      "y": 555
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Model/polaritonmod.py::site_bath::252": {
+      "x": 460,
+      "y": 555
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Model/polaritonmod.py::from_file::272": {
+      "x": 488,
+      "y": 555
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Model/polaritonmod.py::fitted::176": {
+      "x": 516,
+      "y": 555
+    },
+    "fileanchor::/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Method/__init__.py": {
+      "x": 76,
+      "y": 304
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Method/split_op_Saeed.py::Epol::37": {
+      "x": 56,
+      "y": 116
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Method/split_op_Saeed.py::Enoncouplefunc::55": {
+      "x": 84,
+      "y": 116
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Method/split_op_Saeed.py::Ushuf::67": {
+      "x": 112,
+      "y": 116
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Method/split_op_Saeed.py::Ushufrev::79": {
+      "x": 140,
+      "y": 116
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Method/split_op_Saeed.py::BlocksED::90": {
+      "x": 168,
+      "y": 116
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Method/split_op_Saeed.py::Ugamma::121": {
+      "x": 196,
+      "y": 116
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Method/split_op_Saeed.py::Uk::130": {
+      "x": 56,
+      "y": 144
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Method/split_op_Saeed.py::propagateCi::157": {
+      "x": 84,
+      "y": 144
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Method/split_op_Saeed.py::Force::212": {
+      "x": 112,
+      "y": 144
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Method/split_op_Saeed.py::VelVer::232": {
+      "x": 140,
+      "y": 144
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Method/split_op_Saeed.py::pop::276": {
+      "x": 168,
+      "y": 144
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Method/split_op_Saeed.py::total_norm::286": {
+      "x": 196,
+      "y": 144
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Method/split_op_Saeed.py::energy::290": {
+      "x": 56,
+      "y": 172
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Method/split_op_Saeed.py::create_dat::304": {
+      "x": 84,
+      "y": 172
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Method/split_op_Saeed.py::runTraj::322": {
+      "x": 112,
+      "y": 172
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Method/split_op_Saeed.py::__init__::30": {
+      "x": 140,
+      "y": 172
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/animate_interference.py::make_movie::14": {
+      "x": 419,
+      "y": 174
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/animate_interference.py::draw::33": {
+      "x": 447,
+      "y": 174
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/avg.py::combine::20": {
+      "x": 501,
+      "y": 174
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/initialMC.py::Epol::8": {
+      "x": 309,
+      "y": 30
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/initialMC.py::_setup::21": {
+      "x": 337,
+      "y": 30
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/initialMC.py::_distances2::49": {
+      "x": 365,
+      "y": 30
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/initialMC.py::_LP_fields::57": {
+      "x": 393,
+      "y": 30
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/initialMC.py::_spread::62": {
+      "x": 421,
+      "y": 30
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/initialMC.py::_greedy_mc::69": {
+      "x": 309,
+      "y": 58
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/initialMC.py::sqd_mc_coefficients::101": {
+      "x": 337,
+      "y": 58
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/initialMC.py::packet::129": {
+      "x": 365,
+      "y": 58
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/initialMC.py::initElectronic::154": {
+      "x": 393,
+      "y": 58
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/initialMC.py::initial_state::161": {
+      "x": 421,
+      "y": 58
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/initialMC.py::save_packets::171": {
+      "x": 309,
+      "y": 86
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/plot_brownian_fit.py::main::9": {
+      "x": 583,
+      "y": 174
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/plot_localization.py::make_plot::10": {
+      "x": 309,
+      "y": 272
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/plot_results.py::visualize::13": {
+      "x": 391,
+      "y": 272
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/plot_results.py::heat::25": {
+      "x": 419,
+      "y": 272
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/preview_patterns.py::main::15": {
+      "x": 473,
+      "y": 272
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/preview_patterns.py::heat::25": {
+      "x": 501,
+      "y": 272
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/run.py::parse_phases::16": {
+      "x": 484,
+      "y": 30
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/run.py::center_window::28": {
+      "x": 512,
+      "y": 30
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/run.py::compute_phase_diagnostics::37": {
+      "x": 540,
+      "y": 30
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/run.py::main::73": {
+      "x": 484,
+      "y": 58
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/runjobs.py::parse_scan::31": {
+      "x": 309,
+      "y": 174
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/runjobs.py::slug::49": {
+      "x": 337,
+      "y": 174
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/runjobs.py::prepare::54": {
+      "x": 365,
+      "y": 174
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/runjobs.py::main::82": {
+      "x": 309,
+      "y": 202
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/serial.py::main::56": {
+      "x": 555,
+      "y": 272
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/track_interference_metrics.py::main::18": {
+      "x": 309,
+      "y": 354
+    }
+  },
+  "expandedFolders": [
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete",
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Method",
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Model",
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/reference_original",
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests"
+  ],
+  "frames": {
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Method": {
+      "x": 0,
+      "y": 0,
+      "w": 277,
+      "h": 395,
+      "pinned": false,
+      "cx": 0,
+      "cy": 0
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/Model": {
+      "x": 348,
+      "y": 411,
+      "w": 235,
+      "h": 366,
+      "pinned": false,
+      "cx": 0,
+      "cy": 0
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/reference_original": {
+      "x": 599,
+      "y": 411,
+      "w": 250,
+      "h": 264,
+      "pinned": false,
+      "cx": 0,
+      "cy": 0
+    },
+    "/Users/rajanyasarkar/Downloads/SQD_2D_TwoMaterials_Complete/tests": {
+      "x": 0,
+      "y": 411,
+      "w": 332,
+      "h": 387,
+      "pinned": false,
+      "cx": 0,
+      "cy": 0
+    }
+  }
+}

@@ -1,0 +1,75 @@
+# TWO-MATERIAL 2D SQD / MFE: DIFFERENT BROWNIAN SPECTRAL SHAPES
+# Material 1: your supplied six-Brownian fit (UNCHANGED).
+# Material 2: independent EXAMPLE spectrum, with different peak positions,
+# linewidths, and amplitudes. THIS IS SYNTHETIC, NOT A MEASURED FIT.
+# Both use the same spectral-density convention J(w)=sum a_r*w/denominator,
+# with a_r = amp_r * (1e-11*pi**3), NO nsites division.
+# The example was chosen for similar discretized total reorganization energy
+# (~371 cm^-1 per material), to primarily test SPECTRAL SHAPE.
+
+Model = polaritonmod
+Method = split_op_Saeed
+System = pc
+
+# Homogeneous reference control vs spatially different baths
+$cases = 'same,different'
+$phases = '0,pi'
+
+# 2D cavity + one coherent single-excitation LP state
+$Nx = 64
+$Ny = 24
+$a_bohr = 75.0
+$eps1_ev = 3.2
+$eps2_ev = 3.2
+$reference_eps_ev = 3.2
+$g_cm1 = 3900.0
+$tau_ref_cm1 = 0.0
+$Lz_bohr = 1889.726125
+
+# Both materials use separate SIX-BROWNIAN fits.
+$j_source_1 = 'brownian'
+$j_source_2 = 'brownian'
+$brownian_fit_prefactor = 3.100627668029982e-10  # 1e-11*pi**3
+$brownian_amplitude_multiplier_1 = 1.0
+$brownian_amplitude_multiplier_2 = 1.0
+
+# MATERIAL 1 -- your original fitted parameters, frequencies in Hartree.
+$brownian_omega1_au = (0.00041, 0.00703, 0.00128, 0.00785, 0.0059, 0.0055)
+$brownian_gamma1_au = (0.0003, 0.00017, 0.00030000000000000003, 0.00018, 0.0002, 0.0005)
+$brownian_amp1_base = (0.00021, 0.11383000000000001, 0.00116, 0.023490000000000004, 0.011600000000000001, 1e-05)
+
+# MATERIAL 2 -- separate SYNTHETIC fit, NOT 1.4 x material 1.
+# All SIX centers, widths, and amplitudes are independently specified.
+$brownian_omega2_au = (0.00055, 0.00642, 0.00162, 0.00810, 0.00535, 0.00475)
+$brownian_gamma2_au = (0.00040, 0.00027, 0.00022, 0.00030, 0.00035, 0.00042)
+$brownian_amp2_base = (0.00055, 0.105, 0.0026, 0.0534, 0.0267, 0.0005)
+
+# Bath discretization, Hartree internally, wavenumber input in cm^-1.
+$n_modes = 64
+$omega_min_cm1 = 30.0
+$omega_max_cm1 = 2100.0
+$brownian_bin_quadrature = 48
+$temperature_K = 300.0
+
+# Original SQD-style momentum-window MC localization (two incoming arms)
+$initial_method = 'sqd_mc'
+$initial_bulk_mode = 'reference'
+$kx_mode = 2
+$offset_sites = 8.0
+$sigma_x_sites = 5.0
+$sigma_y_sites = 4.0
+$dE_ev = 0.14
+$ntry = 2500
+$mc_step = 0.12
+$initial_seed = 119
+
+# Ensemble: 100 thermal samples per case and phase; 300 nuclear steps.
+# runjobs.py --jobs 5 --traj-per-job 20 overrides NTraj to 100 as well.
+$dtN = 8.0
+$e_substeps_half = 2
+$NSteps = 300
+$NTraj = 100
+$nskip = 5
+$SEED = 20261027
+$center_halfwidth_x = 4
+$center_halfwidth_y = 6

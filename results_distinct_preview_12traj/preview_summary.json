@@ -1,0 +1,42 @@
+{
+  "status": "four complete trajectory-ensemble files obtained; final diagnostics reconstructed after initial command timed out during compression",
+  "input_file": "input_distinct_preview_12traj.txt",
+  "input_sha256": "fdb7ed3ffccb06db3735c51768589ab67832d872eba6b2ad60bbd350d503c7aa",
+  "origin": "input_brownian_distinct_materials.txt; only NTraj changed 100 -> 12",
+  "Nx": 64,
+  "Ny": 24,
+  "n_modes_per_site": 64,
+  "NTraj_per_phase_and_case": 12,
+  "NSteps": 300,
+  "nskip": 5,
+  "run_time_fs": 58.053223836120004,
+  "reorg1_cm1": 370.8602973415664,
+  "reorg2_cm1": 370.25956182881777,
+  "synthetic_material_2": true,
+  "results": {
+    "same_phi_0": {
+      "max_norm_deviation": 6.021849685566849e-13,
+      "initial_energy_hartree": 253.2902129028992,
+      "max_energy_drift_hartree": 0.00034506956970403735,
+      "final_photon_population": 0.0013654881201801711
+    },
+    "same_phi_pi": {
+      "max_norm_deviation": 6.068479052601106e-13,
+      "initial_energy_hartree": 253.29021916672343,
+      "max_energy_drift_hartree": 0.0003450660994417376,
+      "final_photon_population": 0.001294052369904201
+    },
+    "different_phi_0": {
+      "max_norm_deviation": 5.975220318532593e-13,
+      "initial_energy_hartree": 253.29020570056423,
+      "max_energy_drift_hartree": 0.0003450622709237905,
+      "final_photon_population": 0.0009795132503838777
+    },
+    "different_phi_pi": {
+      "max_norm_deviation": 6.024070131616099e-13,
+      "initial_energy_hartree": 253.29019612893094,
+      "max_energy_drift_hartree": 0.00034506712881920976,
+      "final_photon_population": 0.0010327302004883795
+    }
+  }
+}
