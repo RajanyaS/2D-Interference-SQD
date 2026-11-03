@@ -42,7 +42,7 @@ measured or fitted spectra. Replace them before drawing material conclusions.**
 | `plot_results.py` | 2D maps, center-window traces, material difference ΔD, spectral input diagnostics |
 | `tests/test_physics.py` | Unitarity, eigenvectors, forces, homogeneous control, norm |
 
-See **[ORIGINAL_SAEED_TO_2D_CHANGES.md](ORIGINAL_SAEED_TO_2D_CHANGES.md)** for a function-by-function explanation and the unchanged uploaded 1D source in `reference_original/`.
+
 
 The uploaded 1D `split_op_Saeed.py` partly propagates photon coefficients in
 momentum space and excitons in real space. Here **both exciton and photon arrays
